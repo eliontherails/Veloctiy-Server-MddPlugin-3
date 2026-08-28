@@ -1,22 +1,14 @@
-# Minecraft runtime files
+
 **/logs/
 **/cache/
 **/crash-reports/
 **/.console_history
-
-# Server worlds
 **/world/
 **/world_nether/
 **/world_the_end/
-
-# Server JARs
 **/*.jar
-
-# Velocity secrets
 **/forwarding.secret
 *.secret
-
-# Runtime/generated files
 **/libraries/
 **/versions/
 **/usercache.json
@@ -25,19 +17,13 @@
 **/banned-players.json
 **/whitelist.json
 
-# Paper generated files
+# paper generated files
 **/plugins/.paper-remapped/
 **/plugins/*/tmp-client/
 
-# Plugin databases
+# databases
 **/*.mv.db
 **/*.trace.db
 **/*.db
-
-# IDE
-.idea/
-.vscode/
-
-# Environment/secrets
 .env
 *.secret
